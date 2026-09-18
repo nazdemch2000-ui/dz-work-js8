@@ -8,4 +8,5 @@ export function showStatistics(books) {
     }
 
     console.log("Количество авторов:", authors.size);
+    console.log(import.meta.url);
 }
